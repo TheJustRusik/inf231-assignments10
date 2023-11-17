@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDU News</title>
+  <style>
+    #news-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .news-item {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>University News</h1>
+
+  <div id="news-container">
+    <!-- News will be displayed here -->
+  </div>
+
+  <h2>Add News</h2>
+  <input type="text" id="news-title" placeholder="Enter news title">
+  <textarea id="news-content" placeholder="Enter news content"></textarea>
+  <button onclick="addNews()">Add News</button>
+
+  <script src="creating.js"></script>
+</body>
+</html>
